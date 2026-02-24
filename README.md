@@ -70,8 +70,10 @@ The entire application is accessible through **port 80 only**, as required.
 The application has been successfully deployed on AWS EC2
 and is accessible via the EC2 public IP on port 80.
 
-```text
+```bash
 http://3.109.182.17/
+
+---
 
 ## Local Setup Instructions
 
