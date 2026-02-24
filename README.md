@@ -67,11 +67,12 @@ The entire application is accessible through **port 80 only**, as required.
 
 ## Application Access
 
-The application has been successfully deployed on AWS EC2
-and is accessible via the EC2 public IP on port 80.
+The application has been successfully deployed on **AWS EC2** and is accessible via the EC2 public IP on **port 80**.
 
-```bash
-http://3.109.182.17/
+**Application URL:** http://3.109.182.17/
+
+
+> The EC2 instance is kept running for live demonstration if required.
 
 ---
 
@@ -80,4 +81,4 @@ http://3.109.182.17/
 ```bash
 git clone <repository-url>
 cd crud-dd-task-mean-app
-docker-compose up -d
+docker compose up -d
